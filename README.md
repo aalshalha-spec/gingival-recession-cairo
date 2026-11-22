@@ -13,7 +13,7 @@ The experimental setup described in the manuscript uses Kaggle with an NVIDIA T4
 ```text
 .
 ├── README.md
-└── Notebook_no_version_labels.ipynb
+└── Notebook.ipynb
 ```
 
 The notebook writes the following modules under its working directory when run:
@@ -211,7 +211,7 @@ After Part C completes, the notebook measures model cost and generates the conso
 
 ## Running on Kaggle
 
-1. Add `Notebook_no_version_labels.ipynb` to a Kaggle notebook.
+1. Add `Notebook.ipynb` to a Kaggle notebook.
 2. Attach the dataset described above. Enable a GPU accelerator and Internet access.
 3. Keep `PART = "A"`, run all cells, and download `gingival_partA.zip`.
 4. Attach the original dataset and `gingival_partA.zip`, set `PART = "B"`, run all cells, and download `gingival_partB.zip`.
