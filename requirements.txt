@@ -1,0 +1,14 @@
+# Direct third-party dependencies used by the notebook.
+# Use a PyTorch build compatible with the CUDA version of your runtime.
+# Exact package versions are not pinned because they are not specified
+# in the notebook or the accompanying manuscript.
+
+numpy
+pandas
+scipy
+scikit-learn
+opencv-python
+Pillow
+matplotlib
+timm
+torch
